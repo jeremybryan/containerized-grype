@@ -23,3 +23,10 @@ The conainer respects all command line arguments allowed by grype. In the above:
 
  *  `--scope` specifies what layers we want to be scanned given grype scans operating system packages and application layer packages
  *  `-f`      specifies that we want the scan to fail if any vulnerabilities at the `high` level are found
+
+### Help
+To see all the configuration options simply run
+``` docker run --name grype --rm grype:<version tag> ```
+
+### Reference
+For information about the `grype` project visit https://github.com/anchore/grype
