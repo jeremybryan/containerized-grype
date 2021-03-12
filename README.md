@@ -1,2 +1,2 @@
-# containerized-grype
-Simple containerization of Anchore Grype
+# Anchore Grype 
+This provides a simple containerization of the Anchore Grype container vulnerability scanner.
