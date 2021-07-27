@@ -8,7 +8,7 @@ Bulding the image is straightforward using the following:
 docker build -t grype:<version tag> . 
 ```
 
-The Dockerfile has been written to pull leverage the `install.sh` script provided by the Anchore team.
+The Dockerfile has been written to leverage the `install.sh` script provided by the Anchore team.
 
 ### Running the Image
 Running the image is also straightforward using the following command line.
